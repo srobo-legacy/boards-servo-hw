@@ -1,0 +1,4 @@
+schematics pwm.sch
+output-name pwm
+elements-dir ./components/pkg
+
