@@ -622,6 +622,8 @@ T 56150 52100 5 10 0 0 270 0 1
 device=RESISTOR
 T 56100 52100 5 10 1 1 0 0 1
 refdes=R2
+T 56100 51900 5 10 1 1 0 0 1
+value=sr-r-8k2
 }
 C 55800 51600 1 270 0 resistor-2.sym
 {
@@ -629,6 +631,8 @@ T 56150 51200 5 10 0 0 270 0 1
 device=RESISTOR
 T 56100 51200 5 10 1 1 0 0 1
 refdes=R4
+T 56100 51000 5 10 1 1 0 0 1
+value=sr-r-1k5
 }
 C 48700 52100 1 270 0 resistor-2.sym
 {
