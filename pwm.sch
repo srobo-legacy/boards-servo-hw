@@ -192,7 +192,7 @@ footprint=DIP14
 T 51800 48300 5 10 0 0 0 0 1
 slot=1
 T 52300 49200 5 10 1 1 0 0 1
-value=sr-ic-74hct04
+value=sr-ic-74hct04d
 T 51800 48300 5 10 0 0 0 0 1
 footprint=SO14
 }
@@ -207,7 +207,7 @@ footprint=DIP14
 T 51800 47300 5 10 0 0 0 0 1
 slot=2
 T 52300 48200 5 10 1 1 0 0 1
-value=sr-ic-74hct04
+value=sr-ic-74hct04d
 T 51800 47300 5 10 0 0 0 0 1
 footprint=SO14
 }
@@ -222,7 +222,7 @@ footprint=DIP14
 T 51800 46300 5 10 0 0 0 0 1
 slot=3
 T 52300 47200 5 10 1 1 0 0 1
-value=sr-ic-74hct04
+value=sr-ic-74hct04d
 T 51800 46300 5 10 0 0 0 0 1
 footprint=SO14
 }
@@ -237,7 +237,7 @@ footprint=DIP14
 T 51800 45300 5 10 0 0 0 0 1
 slot=4
 T 52300 46200 5 10 1 1 0 0 1
-value=sr-ic-74hct04
+value=sr-ic-74hct04d
 T 51800 45300 5 10 0 0 0 0 1
 footprint=SO14
 }
@@ -252,7 +252,7 @@ footprint=DIP14
 T 51800 44300 5 10 0 0 0 0 1
 slot=5
 T 52300 45200 5 10 1 1 0 0 1
-value=sr-ic-74hct04
+value=sr-ic-74hct04d
 T 51800 44300 5 10 0 0 0 0 1
 footprint=SO14
 }
@@ -267,7 +267,7 @@ footprint=DIP14
 T 51800 43300 5 10 0 0 0 0 1
 slot=6
 T 52300 44200 5 10 1 1 0 0 1
-value=sr-ic-74hct04
+value=sr-ic-74hct04d
 T 51800 43300 5 10 0 0 0 0 1
 footprint=SO14
 }
