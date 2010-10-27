@@ -750,6 +750,8 @@ T 55350 54500 5 10 0 0 270 0 1
 device=RESISTOR
 T 55300 54500 5 10 1 1 0 0 1
 refdes=R?
+T 55300 54300 5 10 1 1 0 0 1
+value=sr-r-10k
 }
 C 55000 53800 1 270 0 resistor-2.sym
 {
@@ -757,6 +759,8 @@ T 55350 53400 5 10 0 0 270 0 1
 device=RESISTOR
 T 55300 53400 5 10 1 1 0 0 1
 refdes=R?
+T 55300 53200 5 10 1 1 0 0 1
+value=sr-r-3k3
 }
 C 47900 54800 1 270 0 capacitor-1.sym
 {
