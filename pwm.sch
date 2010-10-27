@@ -696,7 +696,7 @@ device=RESISTOR
 T 56200 51300 5 10 1 1 0 0 1
 refdes=R?
 T 56200 51100 5 10 1 1 0 0 1
-value=sr-r-1k
+value=sr-r-330
 }
 N 38700 55200 37900 55200 4
 C 49400 52600 1 0 0 LM3489.sym
