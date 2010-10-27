@@ -713,7 +713,7 @@ value=sr-r-1k
 T 37500 48400 5 10 0 0 0 0 1
 footprint=sr_0603
 }
-C 37800 46200 1 90 0 zener-4.sym
+C 37800 46200 1 90 0 zener-5.sym
 {
 T 37200 46600 5 10 0 0 90 0 1
 device=DIODE
@@ -736,7 +736,7 @@ value=sr-r-1k
 T 39500 48400 5 10 0 0 0 0 1
 footprint=sr_0603
 }
-C 39800 46200 1 90 0 zener-4.sym
+C 39800 46200 1 90 0 zener-5.sym
 {
 T 39200 46600 5 10 0 0 90 0 1
 device=DIODE
