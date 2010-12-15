@@ -29,6 +29,8 @@ T 37200 54195 5 10 0 0 0 0 1
 device=none
 T 37900 50800 5 10 1 1 0 0 1
 value=sr-nothing
+T 37100 50700 5 10 0 0 0 0 1
+source=interconnect.sch
 }
 C 38500 54900 1 270 0 capacitor-1.sym
 {
