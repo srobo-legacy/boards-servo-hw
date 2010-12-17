@@ -1,4 +1,4 @@
-schematics pwm.sch
-output-name pwm
+schematics servo.sch
+output-name servo
 elements-dir ./components/pkg
 

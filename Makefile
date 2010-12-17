@@ -3,7 +3,7 @@ PCB=pcb
 GEDA_HIERPCB=sr geda-hierpcb
 PROJECTRC=projectrc
 
-BOARD=pwm
+BOARD=servo
 
 .PHONY: pcb photo bom clean
 
@@ -21,7 +21,7 @@ ${BOARD}-bottom.png: ${BOARD}.pcb
 
 bom: bom.html
 
-bom.html: pwm.sch
+bom.html: servo.sch
 	sr create_bom $^ $@
 
 clean:
