@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Fri Dec 17 19:05:38 2010
+# date:    Fri Dec 17 19:17:59 2010
 # user:    richard (Richard Barlow)
 # host:    richpc.richardbarlow.co.uk
 
@@ -1397,11 +1397,11 @@ Element["onsolder" "1206" "S/F2" "sr-fuse-r50-1206" 65944 61614 4922 24016 0 78 
 
 	)
 
-Element["onsolder" "JUMPER3" "J5" "sr-cn-header3" 119094 124016 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J5" "sr-cn-header3" 118937 124016 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1411,11 +1411,11 @@ Element["onsolder" "JUMPER3" "J5" "sr-cn-header3" 119094 124016 -5000 11000 0 10
 
 	)
 
-Element["onsolder" "JUMPER3" "J4" "sr-cn-header3" 119094 136811 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J4" "sr-cn-header3" 118937 136811 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1798,11 +1798,11 @@ Element["onsolder" "1206" "S/F4" "sr-fuse-r50-1206" 65944 40944 4921 35434 0 78 
 
 	)
 
-Element["onsolder" "JUMPER3" "J3" "sr-cn-header3" 119094 149607 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J3" "sr-cn-header3" 118937 149606 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1812,11 +1812,11 @@ Element["onsolder" "JUMPER3" "J3" "sr-cn-header3" 119094 149607 -5000 11000 0 10
 
 	)
 
-Element["onsolder" "JUMPER3" "J2" "sr-cn-header3" 119094 162402 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J2" "sr-cn-header3" 118937 162402 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1880,11 +1880,11 @@ Element["onsolder" "sr_0603" "R7" "sr-r-1k" 109252 162402 0 0 3 100 "auto"]
 
 	)
 
-Element["onsolder" "JUMPER3" "J10" "sr-cn-header3" 119094 72835 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J10" "sr-cn-header3" 118937 72835 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1894,11 +1894,11 @@ Element["onsolder" "JUMPER3" "J10" "sr-cn-header3" 119094 72835 -5000 11000 0 10
 
 	)
 
-Element["onsolder" "JUMPER3" "J9" "sr-cn-header3" 119094 85630 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J9" "sr-cn-header3" 118937 85630 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1908,11 +1908,11 @@ Element["onsolder" "JUMPER3" "J9" "sr-cn-header3" 119094 85630 -5000 11000 0 100
 
 	)
 
-Element["onsolder" "JUMPER3" "J8" "sr-cn-header3" 119094 98425 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J8" "sr-cn-header3" 118937 98425 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -1922,11 +1922,11 @@ Element["onsolder" "JUMPER3" "J8" "sr-cn-header3" 119094 98425 -5000 11000 0 100
 
 	)
 
-Element["onsolder" "JUMPER3" "J7" "sr-cn-header3" 119094 111221 -5000 11000 0 100 "auto"]
+Element["onsolder" "JUMPER3" "J7" "sr-cn-header3" 118937 111220 -5000 11000 0 100 "auto"]
 (
 	Pin[0 0 6000 3000 6600 3800 "1" "1" "square,edge2"]
-	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2"]
-	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2"]
+	Pin[10000 0 6000 3000 6600 3800 "2" "2" "edge2,thermal(0S)"]
+	Pin[20000 0 6000 3000 6600 3800 "3" "3" "edge2,thermal(0S)"]
 	ElementLine [-5000 -5000 25000 -5000 1000]
 	ElementLine [25000 -5000 25000 5000 1000]
 	ElementLine [-5000 5000 25000 5000 1000]
@@ -2218,6 +2218,10 @@ Layer(1 "component")
 	Line[110236 199803 134843 199803 4000 2000 ""]
 	Line[122047 187008 122047 211614 4000 2000 ""]
 	Line[155669 181102 155669 217520 1000 2000 "clearline"]
+	Line[138937 162402 152560 162402 8343 2000 ""]
+	Line[152560 162402 155512 165354 8343 2000 "clearline"]
+	Line[155512 165354 155512 180945 8343 2000 "clearline"]
+	Line[155512 180945 155669 181102 8343 2000 "clearline"]
 	Arc[39764 89763 2362 2362 1000 2000 0 90 "clearline"]
 	Arc[52165 125393 5709 5709 1000 2000 90 90 "clearline"]
 	Arc[51772 113582 6102 6102 1000 2000 -180 90 "clearline"]
@@ -2276,6 +2280,14 @@ Layer(1 "component")
 	Polygon("clearpoly")
 	(
 		[105315 169291] [148622 169291] [148622 238189] [105315 238189] 
+	)
+	Polygon("clearpoly")
+	(
+		[124016 68898] [133858 68898] [133858 171260] [124016 171260] 
+	)
+	Polygon("clearpoly")
+	(
+		[134843 68898] [144685 68898] [144685 168307] [134843 168307] 
 	)
 )
 Layer(2 "solder")
@@ -2704,6 +2716,8 @@ Layer(2 "solder")
 	Line[83503 191989 79784 191989 1000 2000 "clearline"]
 	Line[79784 191989 78740 190945 1000 2000 "clearline"]
 	Line[78740 190945 78740 186024 1000 2000 "clearline"]
+	Line[52165 229331 143858 229331 2500 2000 "clearline"]
+	Line[143858 229331 155669 217520 2500 2000 "clearline"]
 	Polygon("clearpoly")
 	(
 		[80709 52559] [90551 52559] [90551 62598] [80709 62598] 
