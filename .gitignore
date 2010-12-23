@@ -2,6 +2,6 @@
 *-
 *.bak
 *.new.pcb
-pwm.net
-pwm.cmd
+servo.net
+servo.cmd
 interconnect_S.pcb
