@@ -1,5 +1,5 @@
 # release: pcb 1.99z
-# date:    Fri Dec 24 01:34:09 2010
+# date:    Fri Dec 24 18:55:44 2010
 # user:    rbarlow (Richard Barlow)
 # host:    thinkpad.richardbarlow.co.uk
 
@@ -9,7 +9,7 @@ FileVersion[20100606]
 PCB["" 165354 236220]
 
 Grid[393.700775 0 0 1]
-Cursor[0 236220 0.000000]
+Cursor[0 0 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[787 787 787 787 1969 787]
@@ -1991,6 +1991,19 @@ Element["onsolder" "1210" "C4" "sr-c-22u-1210" 150591 206299 -19491 -2559 1 100 
 	ElementLine [-1968 -5314 1968 -5314 800]
 
 	)
+
+Element["onsolder" "DO214AC" "D4" "sr-d-smaj5.0a" 125197 214764 -12456 9252 1 100 "auto"]
+(
+	Pad[0 -10236 0 -6693 6890 2000 7490 "1" "1" "onsolder,square"]
+	Pad[0 6693 0 10236 6890 2000 7490 "2" "2" "onsolder,square,edge2"]
+	ElementLine [-4206 -15650 -5906 -8650 1000]
+	ElementLine [-5906 -8650 -5906 15650 1000]
+	ElementLine [-5906 15650 5906 15650 1000]
+	ElementLine [5906 -8650 5906 15650 1000]
+	ElementLine [4206 -15650 5906 -8650 1000]
+	ElementLine [-4206 -15650 4206 -15650 2000]
+
+	)
 Layer(1 "component")
 (
 	Line[79134 100787 79134 104329 1000 2000 ""]
@@ -3110,6 +3123,11 @@ Layer(2 "solder")
 	Line[106103 133859 109252 133859 787 1574 "clearline"]
 	Line[55906 7087 60236 7087 1000 2000 ""]
 	Line[92913 157480 105512 170079 1000 2000 "clearline"]
+	Line[119685 223228 130315 223228 2500 2000 ""]
+	Line[125197 216142 125197 230315 2500 2000 ""]
+	Line[125197 206299 141732 206299 2500 2000 "clearline"]
+	Line[138780 209252 135827 206299 2500 2000 "clearline"]
+	Line[138780 203346 135827 206299 2500 2000 "clearline"]
 	Text[35432 22050 0 154 "OUT" "clearline,auto"]
 	Text[84055 115550 1 154 "IN" "auto"]
 	Polygon("clearpoly")
@@ -3414,6 +3432,7 @@ NetList()
 		Connect("C9-1")
 		Connect("C10-1")
 		Connect("C11-1")
+		Connect("D4-1")
 		Connect("J2-2")
 		Connect("J3-2")
 		Connect("J4-2")
@@ -3440,6 +3459,7 @@ NetList()
 		Connect("C11-2")
 		Connect("D1-1")
 		Connect("D1-2")
+		Connect("D4-2")
 		Connect("J2-3")
 		Connect("J3-3")
 		Connect("J4-3")
