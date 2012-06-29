@@ -6,7 +6,7 @@ FileVersion[20091103]
 PCB["" 41.9999mm 2362.20mil]
 
 Grid[393.000000 0.0000 0.0000 1]
-Cursor[42.0251mm 962.85mil 0.000000]
+Cursor[0.0000 2362.20mil 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[7.87mil 7.87mil 7.87mil 7.87mil 19.69mil 7.87mil]
@@ -2398,6 +2398,8 @@ Layer(1 "component")
 	Text[26.5999mm 42.1998mm 1 133 "studentrobotics.org" "clearline"]
 	Text[952.76mil 37.7002mm 1 133 "Servo" "clearline"]
 	Text[952.75mil 31.5999mm 1 133 "SR11.F" "clearline"]
+	Text[577.71mil 26.2532mm 1 156 "IN" "clearline"]
+	Text[577.71mil 440.16mil 1 156 "OUT" "clearline"]
 	Polygon("clearpoly")
 	(
 		[757.87mil 27.8498mm] [822.83mil 27.8498mm] [822.83mil 870.07mil] [757.87mil 870.07mil] 
@@ -3122,8 +3124,7 @@ Layer(2 "solder")
 	Line[26.7000mm 47.1000mm 1031.50mil 47.1000mm 10.00mil 20.00mil "clearline"]
 	Line[1031.50mil 47.1000mm 25.7000mm 46.6001mm 10.00mil 20.00mil "clearline,rubberend"]
 	Line[948.81mil 48.4591mm 25.8000mm 48.4591mm 10.00mil 20.00mil ""]
-	Text[354.32mil 220.50mil 0 154 "OUT" "clearline,onsolder"]
-	Text[21.3500mm 1155.50mil 1 154 "IN" "onsolder"]
+	Text[318.95mil 240.15mil 0 198 "OUT" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[807.09mil 13.3500mm] [23.0000mm 13.3500mm] [23.0000mm 625.98mil] [807.09mil 625.98mil] 
@@ -3219,11 +3220,11 @@ Layer(3 "silk")
 	Line[15.4000mm 36.4000mm 17.7000mm 34.1000mm 7.87mil 15.74mil "clearline"]
 	Line[897.64mil 47.9001mm 897.64mil 48.5000mm 10.00mil 20.00mil "clearline"]
 	Line[897.64mil 48.5000mm 917.32mil 48.9999mm 10.00mil 20.00mil "clearline"]
-	Text[354.35mil 220.46mil 0 154 "OUT" "onsolder"]
-	Text[840.57mil 1155.50mil 1 154 "IN" "onsolder"]
+	Text[21.1852mm 29.0466mm 1 218 "IN" "onsolder"]
 	Text[33.8000mm 43.0997mm 1 155 "GND" "onsolder"]
 	Text[31.5003mm 43.0997mm 1 155 "5V" "onsolder"]
 	Text[29.0005mm 43.0997mm 1 155 "CTRL" "onsolder"]
+	Text[318.98mil 240.11mil 0 198 "OUT" "onsolder"]
 )
 Layer(4 "silk")
 (
@@ -3231,6 +3232,8 @@ Layer(4 "silk")
 	Line[574.80mil 36.1998mm 574.80mil 37.0997mm 7.87mil 20.00mil "clearline"]
 	Line[598.43mil 129.92mil 114.17mil 129.92mil 7.87mil 15.74mil "clearline"]
 	Line[114.17mil 129.92mil 94.49mil 2.8001mm 7.87mil 15.74mil "clearline"]
+	Text[577.71mil 26.2532mm 1 156 "IN" "clearline"]
+	Text[577.71mil 440.16mil 1 156 "OUT" "clearline"]
 )
 NetList()
 (
