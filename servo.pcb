@@ -3225,6 +3225,8 @@ Layer(3 "silk")
 	Text[31.5003mm 43.0997mm 1 155 "5V" "onsolder"]
 	Text[29.0005mm 43.0997mm 1 155 "CTRL" "onsolder"]
 	Text[318.98mil 240.11mil 0 198 "OUT" "onsolder"]
+	Text[397.00mil 2220.00mil 0 300 "-" "onsolder"]
+	Text[397.00mil 1920.00mil 0 300 "+" "onsolder"]
 )
 Layer(4 "silk")
 (
