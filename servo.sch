@@ -1,4 +1,4 @@
-v 20100214 2
+v 20121203 2
 C 36500 39500 0 0 0 title-A2.sym
 T 52900 40300 9 26 1 0 0 0 1
 Servo
@@ -777,7 +777,7 @@ device=PMOS_TRANSISTOR
 T 50200 55500 5 10 1 1 0 0 1
 refdes=Q1
 T 50200 55300 5 10 1 1 0 0 1
-value=sr-fet-p-fds4435
+value=sr-fet-p-irf9328
 T 50200 54300 5 10 0 0 0 0 1
 footprint=SO8
 }
